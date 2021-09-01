@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(255, 237, 240);
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+.bg-imgage{
+    background-image: url(https://i.pinimg.com/originals/8d/a6/4f/8da64fff89cce41b5f378a8e9d17e6dc.jpg);
+    background-size: cover;
+    height: 80vh;
+    
+    
+    
+}
+/*  */
+/* https://i.pinimg.com/originals/8d/a6/4f/8da64fff89cce41b5f378a8e9d17e6dc.jpg */
+
+#speaker p{
+    width: 40%;
+    margin: auto;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: hotpink;
+    text-shadow: 1px 1px blue;
+    
+    
+    
+}
+.card img{
+    object-fit: cover;
+    height: 400px;
+    
+}
+.navbar-color {
+    background-color:pink;
+    
+}
+ 
+.card:hover img {
+    object-fit: cover;
+    height: 300px;
+
+    
+}
+#cards .card-body{
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(159 228 252 / 40%)
+}
+.card-body a{
+    margin-top: auto;
+}
+#jumbotron h1{
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    font-size: 72px;
+  background: -webkit-linear-gradient(#eee, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px red);
+  z-index: 21;
+  text-shadow: 0 0 5px rgba(255,255,255,0.5);
+
+  }
+  #jumbotron h1:nth-child(even){
+    font-size: 72px;
+    text-shadow: 10px 10px 10px rgb(255, 0, 200);
+    position: absolute;
+    top: 0;
+    z-index: 20;
+}
+#jumbotron .h1-container{
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+
+}
+#jumbotron .h1-bottom{
+    position: relative;
+    top: -20px;
+    height: 100px;
+}
+
+#jumbotron .btn{
+    background-color:rgb(255, 0, 200) ;
+    border: 4px solid yellow;
+}
+#jumbotron p{
+    font-size: 24px;
+    text-shadow: 1px 1px  rgb(245, 171, 171);
+    color:purple;
+    
+}
+footer{
+    background-size: cover;
+    background-image: url(http://cdn.shopify.com/s/files/1/0378/3534/1962/products/funny_zoom_backgrounds_sweet_9_grande.jpg?v=1618764266);
+    color: purple;
+    text-shadow:  1px 1px  hotpink; 
+    font-size: 20px;
+    font-family: 'Besley', serif;
+font-family: 'Noto Sans', sans-serif;
+
+    
+
+}
+.see-through{
+    background-color:rgba(255,255,255,0.4);
+    height: 386px;
+}
+
+
+
+i img {
+    border-radius: 50%;
+}
+
+.see-through table {
+    color: purple;
+}
+.card-yellow {
+    color: yellow;
+}
+
